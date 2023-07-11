@@ -1,13 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import Start from './src/screens/components/start';
+import Flatitem from './src/screens/components/flatItem';
 
 export default function App() {
   return (
     <>
       <View style={styles.container}>
-        <Text>Hello App</Text>
-        <Start />
+        {/* <Text>Hello App</Text>
+        <Start /> */}
+        <Flatitem />
         <StatusBar style="auto" />
       </View>
     </>
