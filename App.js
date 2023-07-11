@@ -1,17 +1,17 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import Start from './components/start';
+import Start from './src/screens/components/start';
 
 export default function App() {
   return (
     <>
-      <Start />
       <View style={styles.container}>
         <Text>Hello App</Text>
+        <Start />
         <StatusBar style="auto" />
       </View>
     </>
-  );
+  )
 }
 
 const styles = StyleSheet.create({
@@ -20,6 +20,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor:'red'
-  },
-});
+    backgroundColor: 'red'
+  }
+})
