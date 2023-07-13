@@ -1,12 +1,10 @@
-import React from 'react'
-import { View, Image } from 'react-native'
+import { View } from 'react-native'
+import Block from './block'
 
 const Images = () => {
     return (
         <View>
-            <Image 
-            style={{width: 200, height: 200}}
-            source={require("../../../assets/OIP.jpg")} />
+            <Block imgsource={require("../../../assets/OIP.jpg")} />
         </View>
     )
 }

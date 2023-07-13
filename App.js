@@ -9,11 +9,11 @@ export default function App() {
   return (
     <>
       <View style={styles.container}>
-        {/* <Text>Hello App</Text>
-        <Start /> */}
+        {/* <Text>Hello App</Text> */}
+        {/* <Start /> */}
         {/* <Flatitem /> */}
-        {/* <Images /> */}
-        <Buttons />
+        <Images />
+        {/* <Buttons /> */}
         <StatusBar style="auto" />
       </View>
     </>
