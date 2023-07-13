@@ -5,17 +5,19 @@ import Flatitem from './src/screens/components/flatItem';
 import Images from './src/screens/components/Images';
 import Buttons from './src/screens/components/buttons';
 import Netflixcard from './src/screens/components/netflixcard';
+import Multipleclass from './src/screens/components/Multipleclass';
 
 export default function App() {
   return (
     <>
       <View style={styles.container}>
-        {/* <Text>Hello App</Text> */}
+        <Text>Hello App</Text>
         {/* <Start /> */}
         {/* <Flatitem /> */}
         {/* <Images /> */}
         {/* <Buttons /> */}
-        <Netflixcard />
+        {/* <Netflixcard /> */}
+        <Multipleclass />
         <StatusBar style="auto" />
       </View>
     </>
